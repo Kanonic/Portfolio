@@ -39,9 +39,6 @@ img {
    margin: 0 auto;
    padding-left: 15px;
    padding-right: 15px;
-
-   outline: 2px solid red;
-   outline-offset: -2px;
 }
 
    /* Приховування заголовка */
@@ -209,9 +206,9 @@ a[href="tell:+11(000)111-11-11"] {
 .hero-section {
    background-color: var(--navy-blue);
    background-image:
-      linear-gradient(rgba(46, 47, 66, 0.7),
-         rgba(46, 47, 66, 0.7)),
-      url(/images/hero-img.jpg);
+   linear-gradient(rgba(46, 47, 66, 0.7),
+   rgba(46, 47, 66, 0.7)),
+   url('../images/hero-img.jpg');
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
