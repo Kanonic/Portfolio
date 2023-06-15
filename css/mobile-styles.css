@@ -69,7 +69,7 @@ img {
    background-image:
    linear-gradient(rgba(46, 47, 66, 0.7),
    rgba(46, 47, 66, 0.7)),
-   url(images/hero-img.jpg);
+   url(/images/hero-img.jpg);
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
@@ -136,7 +136,7 @@ img {
 
 
 .countainer-header{
-   max-width: 767px;
+   max-width: 428px;
    display: flex;
    justify-content: space-between;
    align-items: center;

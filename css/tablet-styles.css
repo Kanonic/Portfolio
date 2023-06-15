@@ -211,7 +211,7 @@ a[href="tell:+11(000)111-11-11"] {
    background-image:
       linear-gradient(rgba(46, 47, 66, 0.7),
          rgba(46, 47, 66, 0.7)),
-      url(images/hero-img.jpg);
+      url(/images/hero-img.jpg);
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
