@@ -1014,15 +1014,15 @@ img {
 /* Mobile Burger Menu Clases */
 
 .menu-toggle {
-   min-height: 40px;
-   min-width: 40px;
+   min-height: 24px;
+   min-width: 24px;
    display: flex;
    align-items: center;
    justify-content: center;
 
    margin: 0;
    padding: 0;
-   background-color: transparent;
+   background-color: var(--cornflower);
    cursor: pointer;
    border: none;
    border-radius: 50%;
@@ -1040,8 +1040,8 @@ img {
    left: 0;
    width: 100%;
    height: 100%;
-   padding: 32px;
-   background-color: #3f51b5;
+   padding: 80px 35px 40px 40px;
+   background-color: var(--white);
    z-index: 999;
 
    transform: translateX(100%);
@@ -1056,21 +1056,72 @@ img {
    position: absolute;
    top: 16px;
    right: 16px;
-   color: #fff;
+   color: var(--white);
 }
 
 .mobile-menu {
+   margin-bottom: 195px;
+   display: block;
    padding: 0;
-   margin: 0;
    list-style: none;
 }
-
-.mobile-menu .link {
-   display: block;
-   padding: 10px;
-   color: #fff;
-   text-decoration: none;
+.mobile-menu-item:not(:last-child) {
+   padding-bottom: 40px;
 }
 
+.header-link-mobile {
+   font-weight: 700;
+   font-size: 36px;
+   line-height: 1.11;
+   letter-spacing: 0.02em;
+
+   text-decoration: none;
+   color: var(--navy-blue);
+   display: block;
+   position: relative;
+
+   transition-property: color;
+   transition-duration: 250ms;
+   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+.header-link-mobile:active {
+   color: var(--ocean);
+}
+
+.header-contacts-mobile {
+   list-style: none;
+   display: flex;
+   flex-wrap: wrap;
+   gap: 40px;
+   margin-bottom: 48px;
+}
+
+.header-link-contacts-mobile:active {
+   color: var(--iris);
+}
+
+.header-item-mobile {
+
+}
+.social-network-mobile{
+   display: flex;
+   gap: 40px;
+   list-style: none;
+   position: absolute;
+   bottom: 40px;
+   left: 50%;
+   transform: translateX(-50%);
+
+}
+.header-link-contacts-mobile {
+   font-weight: 700;
+   font-size: 36px;
+   line-height: 1.11;
+   letter-spacing: 0.02em;
+   color: var(--navy-blue);
+   
+}
 
 }
